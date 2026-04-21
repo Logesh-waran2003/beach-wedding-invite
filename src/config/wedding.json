@@ -1,0 +1,49 @@
+{
+  "couple": {
+    "bride": { "name": "Kanika", "bio": "A free spirit with a love for the ocean, sunsets, and all things beautiful. She believes in love stories that begin with a smile.", "photo": "couple-1.jpg" },
+    "groom": { "name": "Abhishek", "bio": "An adventurer at heart who found his greatest adventure in love. He promises to keep the laughter going for a lifetime.", "photo": "couple-2.jpg" }
+  },
+  "blessings": {
+    "sanskrit": "ॐ श्री गणेशाय नमः",
+    "line": "With the heavenly blessings of",
+    "families": [
+      "Smt. Lata Devi & Shri Kamal Kapoor",
+      "Mrs. Reena & Mr. Rajiv Kapoor"
+    ],
+    "daughterOf": "Daughter of Mrs. Shalini & Mr. Aakash Mittal"
+  },
+  "events": [
+    { "name": "Mehendi", "photo": "mehndi.jpg", "date": "Friday, March 9th 2026", "venue": "Taj Exotica Resort, Goa", "time": "6:00 PM", "mapLink": "#" },
+    { "name": "Haldi", "photo": "haldi.jpg", "date": "Friday, March 9th 2026", "venue": "Taj Exotica Resort, Goa", "time": "6:00 PM", "mapLink": "#" },
+    { "name": "Cocktail", "photo": "beach-sunset.jpg", "date": "Friday, March 9th 2026", "venue": "JW Marriott, Mussoorie", "time": "6:00 PM", "mapLink": "#" },
+    { "name": "Shaadi", "photo": "flowers.jpg", "date": "Saturday, March 10th 2026", "venue": "Taj Exotica Resort, Goa", "time": "11:00 AM", "mapLink": "#" },
+    { "name": "Reception", "photo": "venue.jpg", "date": "Saturday, March 10th 2026", "venue": "Taj Exotica Resort, Goa", "time": "7:00 PM", "mapLink": "#" }
+  ],
+  "gallery": [
+    { "photo": "couple-1.jpg", "caption": "The first glance" },
+    { "photo": "couple-2-new.jpg", "caption": "A promise forever" },
+    { "photo": "couple-3.jpg", "caption": "Celebrating us" }
+  ],
+  "message": "We are truly delighted that you can join us on our special day. Your love, blessings, and kindness since our roka have meant the world to us. We look forward to seeing each and every one of you as we begin this beautiful journey together.",
+  "rsvp": {
+    "whatsapp": "919876543210",
+    "prefilledMessage": "Hi! I'd love to attend the wedding. Count me in! 🎉"
+  },
+  "thingsToKnow": [
+    { "emoji": "📸", "title": "#ForeverTogether", "desc": "Use our wedding hashtag on all your photos and stories" },
+    { "emoji": "🌤️", "title": "Weather", "desc": "Expected 22°C with cloudy skies — light layers recommended" },
+    { "emoji": "🚗", "title": "Parking", "desc": "Complimentary valet parking available at the venue entrance" },
+    { "emoji": "👗", "title": "Dress Code", "desc": "Festive elegant — dress to celebrate in style" }
+  ],
+  "countdown": {
+    "date": "2026-12-09T18:00:00",
+    "footerText": "Our families are excited to welcome you to this joyous celebration of love."
+  },
+  "hero": {
+    "backgroundImage": "beach-hero.jpg"
+  },
+  "meta": {
+    "title": "Abhishek & Kanika — Wedding Invitation",
+    "theme": "beach"
+  }
+}

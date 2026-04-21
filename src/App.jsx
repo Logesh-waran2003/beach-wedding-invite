@@ -1,6 +1,7 @@
 import { useEffect } from 'react'
 import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
+import { WeddingProvider } from './config/index.jsx'
 import Hero from './sections/Hero.jsx'
 import Invitation from './sections/Invitation.jsx'
 import Events from './sections/Events.jsx'
@@ -18,15 +19,8 @@ export default function App() {
     const ctx = gsap.context(() => {
       gsap.utils.toArray('.fade-section').forEach((el) => {
         gsap.from(el, {
-          opacity: 0,
-          y: 60,
-          duration: 1,
-          ease: 'power2.out',
-          scrollTrigger: {
-            trigger: el,
-            start: 'top 85%',
-            toggleActions: 'play none none none',
-          },
+          opacity: 0, y: 60, duration: 1, ease: 'power2.out',
+          scrollTrigger: { trigger: el, start: 'top 85%', toggleActions: 'play none none none' },
         })
       })
     })
@@ -34,7 +28,7 @@ export default function App() {
   }, [])
 
   return (
-    <>
+    <WeddingProvider>
       <div className="grain-overlay" />
       <Hero />
       <Invitation />
@@ -45,6 +39,6 @@ export default function App() {
       <RSVP />
       <ThingsToKnow />
       <Countdown />
-    </>
+    </WeddingProvider>
   )
 }
