@@ -2,12 +2,14 @@ import { useEffect, useRef } from 'react'
 import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
 
+const BASE = import.meta.env.BASE_URL
+
 const events = [
-  { name: 'Mehendi', img: '/images/mehndi.jpg', date: 'Friday, March 9th 2026', venue: 'Taj Exotica Resort, Goa', time: '6:00 PM' },
-  { name: 'Haldi', img: '/images/haldi.jpg', date: 'Friday, March 9th 2026', venue: 'Taj Exotica Resort, Goa', time: '6:00 PM' },
-  { name: 'Cocktail', img: '/images/beach-sunset.jpg', date: 'Friday, March 9th 2026', venue: 'JW Marriott, Mussoorie', time: '6:00 PM' },
-  { name: 'Shaadi', img: '/images/flowers.jpg', date: 'Friday, March 9th 2026', venue: 'Taj Exotica Resort, Goa', time: '6:00 PM' },
-  { name: 'Reception', img: '/images/venue.jpg', date: 'Friday, March 9th 2026', venue: 'Taj Exotica Resort, Goa', time: '6:00 PM' },
+  { name: 'Mehendi', img: `${BASE}images/mehndi.jpg`, date: 'Friday, March 9th 2026', venue: 'Taj Exotica Resort, Goa', time: '6:00 PM' },
+  { name: 'Haldi', img: `${BASE}images/haldi.jpg`, date: 'Friday, March 9th 2026', venue: 'Taj Exotica Resort, Goa', time: '6:00 PM' },
+  { name: 'Cocktail', img: `${BASE}images/beach-sunset.jpg`, date: 'Friday, March 9th 2026', venue: 'JW Marriott, Mussoorie', time: '6:00 PM' },
+  { name: 'Shaadi', img: `${BASE}images/flowers.jpg`, date: 'Friday, March 9th 2026', venue: 'Taj Exotica Resort, Goa', time: '6:00 PM' },
+  { name: 'Reception', img: `${BASE}images/venue.jpg`, date: 'Friday, March 9th 2026', venue: 'Taj Exotica Resort, Goa', time: '6:00 PM' },
 ]
 
 export default function Events() {

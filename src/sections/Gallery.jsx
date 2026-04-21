@@ -1,10 +1,12 @@
 import { useEffect, useRef } from 'react'
 import gsap from 'gsap'
 
+const BASE = import.meta.env.BASE_URL
+
 const images = [
-  { src: '/images/couple-1.jpg', caption: 'The first glance' },
-  { src: '/images/couple-2-new.jpg', caption: 'A promise forever' },
-  { src: '/images/couple-3.jpg', caption: 'Celebrating us' },
+  { src: `${BASE}images/couple-1.jpg`, caption: 'The first glance' },
+  { src: `${BASE}images/couple-2-new.jpg`, caption: 'A promise forever' },
+  { src: `${BASE}images/couple-3.jpg`, caption: 'Celebrating us' },
 ]
 
 export default function Gallery() {
