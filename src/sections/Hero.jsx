@@ -49,7 +49,7 @@ export default function Hero() {
       <div
         ref={bgRef}
         className="absolute inset-0 bg-cover bg-center will-change-transform"
-        style={{ backgroundImage: 'url(/images/beach-hero.jpg)' }}
+        style={{ backgroundImage: `url(${import.meta.env.BASE_URL}images/beach-hero.jpg)` }}
       />
 
       {/* Gradient overlay */}

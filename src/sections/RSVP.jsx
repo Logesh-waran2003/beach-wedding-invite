@@ -2,7 +2,7 @@ export default function RSVP() {
   return (
     <section
       className="relative py-24 px-6 bg-cover bg-center text-white text-center"
-      style={{ backgroundImage: "url('/images/beach-sunset.jpg')" }}
+      style={{ backgroundImage: `url(${import.meta.env.BASE_URL}images/beach-sunset.jpg)` }}
     >
       <div className="absolute inset-0 bg-black/60" />
       <div className="relative z-10 max-w-xl mx-auto">
